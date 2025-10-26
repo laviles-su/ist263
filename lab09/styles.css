@@ -1,0 +1,53 @@
+body {
+  background-color: #F5F5F5;
+  color: #222222;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #1A1A1A;
+}
+
+a {
+  color: #0056B3;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #333333;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  background-color: #FFCC00;
+}
+
+.copy {
+  float: left;
+}
+
+.footer-quote {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.row div {
+  flex: 1;
+  background-color: #eef5ff;
+  border-radius: 10px;
+  padding: 15px;
+}
