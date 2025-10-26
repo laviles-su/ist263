@@ -50,4 +50,31 @@ nav a:hover {
   background-color: #eef5ff;
   border-radius: 10px;
   padding: 15px;
+}     
+
+.skills-title {
+  text-align: center;
+}
+
+.skills-intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  flex: 3;
+  justify-content: space-between;
+}
+
+aside {
+  flex: 1;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
 }
