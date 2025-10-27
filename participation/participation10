@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Participation 10</title>
+  <style>
+    body {
+      background-color: red;
+      color: white;
+      text-align: center;
+      font-size: 2em;
+      padding-top: 20%;
+    }
+
+    @media screen and (max-width: 800px) {
+      body {
+        background-color: blue;
+      }
+      h1::after {
+        content: "I'm small";
+      }
+      h1 {
+        display: none;
+      }
+      body::before {
+        content: "I'm small";
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>I'm large</h1>
+</body>
+</html>
