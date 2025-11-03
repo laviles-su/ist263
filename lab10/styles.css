@@ -101,3 +101,15 @@ aside {
   height: 350px;
   border: 0;
 }
+
+@media (max-width: 800px) {
+  nav a {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  nav span {
+    display: none;
+  }
+}
