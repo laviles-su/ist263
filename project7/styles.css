@@ -166,3 +166,54 @@ img {
     height: auto;
     display: block;
 }
+
+/* ===== ACCESSIBILITY CONTRAST FIX ===== */
+
+header {
+    background-color: #1f2933;
+}
+
+.main-nav a,
+.main-nav a:visited,
+.dropbtn {
+    color: #ffffff;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+/* Hover & focus states */
+.main-nav a:hover,
+.main-nav a:focus,
+.dropbtn:hover,
+.dropbtn:focus {
+    color: #ffffff;
+    background-color: #374151;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+    background-color: #1f2933;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+}
+
+.dropdown-content a:hover {
+    background-color: #374151;
+}
+
+/* Skip link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 12px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
